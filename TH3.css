@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#header{
+    width: 1000px;
+    height: 200px;
+}
+#left{
+    width: 200px;
+    min-height: 500px;
+    float: left;
+}
+#left li{
+    margin-left: 10px;
+    padding-left: 10px;
+}
+#giua{
+    width: 600px;
+    min-height: 500px;    
+    float: left;
+
+}
+#giua h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#giua .giua-left{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#giua .giua-name{
+    width: 250px;
+    height:400px ;
+    float: left;
+    padding: 10px;
+
+    line-height: 20px;
+    text-align: center;
+}
+#giua .giua-right{
+    width: 250px;
+    height:400px ;
+    float: right;
+    padding-top: 10px;
+
+    line-height: 20px;
+}
+
+#right{
+    width: 200px;
+    min-height: 500px;
+    float: right;
+}
+#right li{
+    margin-left: 10px;
+}
+#cuoi{
+    width: 600px;
+    height: 200px;
+}
+.cuoi-one{
+    float: left;
+}
+

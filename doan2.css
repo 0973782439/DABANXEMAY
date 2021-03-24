@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+/* RESPONSIVE */
+/* PC: >=1024 */
+/* TABLET: >=740 và <1024 */
+/* PC: <740 */
+/* --ICON-- */
+.icon{
+    /* color: white; */
+    text-decoration: none;
+    margin-left: -25px;
+}
+.page{
+    font-size: 30px;
+    padding-top: 8px;
+}
+.search{
+    color: white;
+}
+
+/* ----------- */
+/* ----FB IG---- */
+#lienhe{
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    font-size: 40px;
+}
+#lienhe li{
+    list-style:none; 
+}
+#nav-lh a{
+    margin-left: 210px;
+}
+#nav-lh li{
+    position: relative;
+}
+.subnav-lh {
+    position: absolute;
+    padding-left: 20px;
+    display: none;
+}
+#nav-lh li:hover .subnav-lh{
+    /* z-index: -1; */
+    /* margin-left: -40px; */
+    display: inline;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    background: blanchedalmond;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+/* -------- */
+.clear{
+    clear: both;
+}
+#header{
+    position: fixed;
+    top: 0;
+}
+/* --LOGO-- */
+#logo{
+    width: 1000px;
+    height: 80px;
+    background: black;
+}
+#logo .logo-one{
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+#logo .logo-search{
+    width: 400px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+}
+/* #logo .logo-search form ::placeholder{
+    width:   200px;
+    height: 50px;
+} */
+#logo .logo-phone{
+    width: 300px;
+    height: 80px;
+    float: right;
+    color: white;
+}
+/* --NAVIGATION-- */
+
+#navigation{
+    width: 1000px;
+    height: 50px;
+    background: turquoise;
+    display: inline-block;
+}
+
+#nav >li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    position: relative;
+}
+#nav>li>a{
+    padding: 0 20px 0 20px;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: inherit;
+}
+#nav a:hover{
+    color: red;
+    transition: 0.2s;
+}
+#nav li:hover{
+    background:rgb(241, 237, 237);
+}
+/* ---nav-nike ----*/
+.nav-nike{
+    background: whitesmoke;
+    width: 150px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav li:hover .nav-nike{
+    display: block;
+    transition: all 0.5s;
+    background: #818588;
+}
+.nav-nike a{
+    padding: 0 10px;
+}
+.nav-nike li{
+    list-style: none;
+}   
+/* ---- NAV-ADIDAS---- */
+.nav-adidas{
+    background: whitesmoke;
+    width: 170px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav li:hover .nav-adidas{
+    display: block;
+} 
+.nav-adidas a{
+    padding: 0 10px;
+}
+.nav-adidas li{
+    list-style: none;
+}   
+/* ----NAV-BALEN---- */
+.nav-balen{
+    background: whitesmoke;
+    width: 235px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav li:hover .nav-balen{
+    display: block;
+} 
+.nav-balen a{
+    padding: 0 10px;
+}
+.nav-balen li{
+    list-style: none;
+}   
+/* ----NAV-CON---- */
+.nav-con{
+    background: whitesmoke;
+    width: 170px;
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav li:hover .nav-con{
+    display: block;
+} 
+.nav-con a{
+    padding: 0 10px;
+}
+.nav-con li{
+    list-style: none;
+}   
+/* ----NAV-VAN---- */
+.nav-van{
+    background: whitesmoke;
+    width: 160px;
+    position: absolute;
+    display: none;
+    box-shadow:0 0 10px rgba(0,0,0,0.3) ;
+}
+#nav li:hover .nav-van{
+    display: block;
+}
+.nav-van a{
+    padding:0 10px;
+}
+.nav-van li{
+    list-style: none;
+}   
+/* ----BANNER---- */
+#banner{
+    margin-top: 130px;
+    display: flex; 
+    justify-content: center;
+}
+#banner .list{
+    display: flex; 
+    
+}
+.list li{
+    list-style: none;
+    max-width: 1000px;
+    /* Không tràn ra ngoài */
+    overflow: hidden; 
+}
+.list li img{
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+    /* display: block; */
+
+}
+#banner a{
+    text-decoration: none;
+}
+.list li:hover img{
+    transform: scale(1.1);
+}
+/* ----CONTAINER */
+#container{
+    height: auto;
+    width: 1000px;
+}
+#container h2{
+    text-align: center;
+    padding-top: 60px;
+}
+.box-banner {
+    background: #e6e2df;
+    height: 150px;
+    margin-top: 20px;
+    /* e6e2df  f6f6f6*/
+}
+.box-banner li{
+    float: left;
+    list-style: none;
+    padding: 25px 10px 0 10px;
+}
+.box-ft h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.box-ft p{
+    font-size: 20px;
+}
+
+/* ----FOOTER -----*/
+#footer{
+    background: black;
+    width: 1000px;
+    height: 600px;
+    margin-top: 50px;
+    /* padding-left: 20px; */
+    text-align: center;
+}
+#footer .ft-link{
+    width: 250px; 
+    float: left;
+    /* background: royalblue; */
+    height: 350px;
+}
+#footer .ft-dichvu{
+   float: left;
+    width: 250px;
+    /* background: red; */
+    height: 350px;
+}
+#footer .ft-thongtin{
+   float: left;
+    width: 250px;
+    /* background: rgb(225, 65, 185); */
+    height: 350px;
+}
+#footer .ft-doitac{
+    float: right; 
+    width: 230px;
+    height: 350px;
+    float: right;
+}
+#footer h3{
+    color: white;
+    text-align: center;
+}
+#footer .ft-link a,
+#footer .ft-thongtin a,
+#footer .ft-dichvu a,
+#footer .ft-doitac a{
+    text-decoration: none;
+    color:  #e6e2df ;
+    text-align: left;
+
+}
+#footer .ft-link li,
+#footer .ft-thongtin li,
+#footer .ft-dichvu li,
+#footer .ft-doitac li{
+    list-style: none;
+    padding: 10px;
+}
+.cuoi-left{
+    color: wheat;
+    float: left;
+    width: 500px;
+    height: 250px;
+}
+.cuoi-right{
+    color: #818588;
+    float: right;
+    width: 500px;
+    height: 250px;  
+}
+.mxh{
+    width: 500px;
+    height: 130px;
+    font-size: 50px;
+    /* background:  seashell; */
+}
+.mxh .fb{
+    width: 250px;
+    height: 130px;
+    float: left;
+    text-align: right;
+    padding-right: 8px;
+}
+.mxh .ig{
+    width: 250px;
+    height: 130px;
+    float:right;
+    text-align: left;
+
+}
+.mxh li{
+    list-style: none;  
+}
+.mxh a{
+    text-decoration: none;
+}
